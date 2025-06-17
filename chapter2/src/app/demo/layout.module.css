@@ -1,0 +1,4 @@
+/* 添加tw-h-screen保证图片满屏显示 */
+.layout {
+    @apply tw-h-screen tw-flex tw-flex-auto tw-flex-wrap tw-items-center tw-justify-center tw-bg-[url(../styles/images/bg-light.png)];
+}
