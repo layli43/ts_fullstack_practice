@@ -5,7 +5,7 @@ import { Hono } from "hono";
 const app = new Hono();
 console.log("debugging");
 
-  app.get("/", (c) => {
+app.get("/", (c) => {
   return c.text("Hello 3rcd.com!");
 });
 
