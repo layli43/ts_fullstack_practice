@@ -8,6 +8,7 @@ import { useState } from "react";
 import $styles from "./style.module.css";
 
 const StateDemo: FC = () => {
+  // change these stated variables will trigger a re-render
   const [count, setCount] = useState(1);
   const [isShow, toggleShow] = useState<boolean>(true);
 
