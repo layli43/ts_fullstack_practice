@@ -61,7 +61,10 @@
         "stylelint-config-css-modules": "^4.4.0",
         "stylelint-config-recess-order": "^6.0.0",
         "stylelint-config-standard": "^38.0.0",
+<<<<<<< HEAD
         "stylelint-config-tailwindcss": "^1.0.0",
+=======
+>>>>>>> a539499cc59614ffb1ed6b17cd66b2097b04f8e3
         "stylelint-prettier": "^5.0.3",
         "tailwindcss": "^3.4.17",
         "tw-animate-css": "^1.3.4",

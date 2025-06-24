@@ -63,6 +63,7 @@
         --font-size-base: 0.875rem;
 
         /* 默认字体 */
+<<<<<<< HEAD
         --font-family-standard:
             'Source Sans Pro', 'Hiragino Sans GB', 'Microsoft Yahei', simsun, helvetica, arial,
             sans-serif, monospace;
@@ -70,5 +71,13 @@
         /* 默认代码字体 */
         --font-family-code:
             'Fira Code', 'Inconsolata', 'Monaco', 'Consolas', 'Courier New', 'Courier', monospace;
+=======
+        --font-family-standard: 'Source Sans Pro', 'Hiragino Sans GB', 'Microsoft Yahei', simsun,
+            helvetica, arial, sans-serif, monospace;
+
+        /* 默认代码字体 */
+        --font-family-code: 'Fira Code', 'Inconsolata', 'Monaco', 'Consolas', 'Courier New',
+            'Courier', monospace;
+>>>>>>> a539499cc59614ffb1ed6b17cd66b2097b04f8e3
     }
 }
