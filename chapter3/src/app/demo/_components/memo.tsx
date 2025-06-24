@@ -10,7 +10,7 @@ import $styles from "./style.module.css";
 /**
  * When the parent component re-renders, the child components will also re-render
  * Using memo will fix the repeated rendering issue
- * useMemo make rendering happen only when dependencies change
+ * useMemo/memo() make rendering happen only when dependencies change
  * useMemo will cache the return value of the function
  */
 
