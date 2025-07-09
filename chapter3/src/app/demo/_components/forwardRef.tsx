@@ -26,6 +26,7 @@ const MyInput = forwardRef<
   const inputRef = useRef<HTMLInputElement | null>(null);
   /**
    * useImperativeHandle(ref, createHandle, dependencies)
+   * Passing function to parent component
    * ref:dom node refered by a variable in parent component
    * createHandle: return the value and methods that can be used in parent component
    * dependencies: when dependencies change,the createHandle will be recalled

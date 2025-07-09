@@ -2,3 +2,7 @@
 .layout {
   @apply tw-h-screen tw-flex tw-flex-auto tw-flex-wrap tw-items-center tw-justify-center tw-bg-[url(../styles/images/bg-light.png)];
 }
+
+html:global(.dark) .layout {
+  @apply tw-bg-[url(../styles/images/bg-dark.png)]
+}

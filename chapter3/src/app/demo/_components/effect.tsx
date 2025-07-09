@@ -7,7 +7,7 @@ import $styles from "./style.module.css";
 /**
  * useEffect(setup, dependencies?)
  * react will compare each dependency with its previous value
- * After every rerender with changed dependencies, react will run cleanup function first(if it is provided) with the old values,
+ * After every re-render with changed dependencies, react will run cleanup function first(if it is provided) with the old values,
  * then run the setup function with the new values
  */
 const EffectDemo: FC = () => {
