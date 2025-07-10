@@ -8,12 +8,12 @@ import { type FC, type PropsWithChildren, use, useMemo } from "react";
 import { Locale } from "./_components/context";
 import { LocaleContext } from "./_components/context";
 import { localeData } from "./_components/context/constants";
+import { Theme } from "./_components/reducer";
 import {
   defaultThemeConfig,
   ThemeContext,
 } from "./_components/reducer/constants";
 import $styles from "./layout.module.css";
-import { Theme } from "./_components/reducer";
 
 const px2rem = px2remTransformer();
 
@@ -36,7 +36,6 @@ const DemoAntd: FC<PropsWithChildren> = ({ children }) => {
     if (themeState.mode === "dark") result.push(theme.darkAlgorithm);
     return result;
   }, [themeState]);
-  
   return (
     <ConfigProvider
       locale={antdLocaleData}

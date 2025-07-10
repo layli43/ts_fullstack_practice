@@ -40,7 +40,8 @@ const EffectDemo: FC = () => {
   useEffect(() => {
     (async () => {
       await new Promise((resolve) => {
-        setTimeout(() => resolve(true), 1000);
+        const timeOutId = setTimeout(() => resolve(true), 1000);
+        return () => clearTimeout(timeOutId);
       });
       setDanger(ghost);
     })();

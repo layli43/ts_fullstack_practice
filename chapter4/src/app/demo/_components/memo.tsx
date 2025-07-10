@@ -14,12 +14,12 @@ import $styles from "./style.module.css";
  * useMemo will cache the return value of the function
  */
 
-const ChildCom1: FC<{ value: number }> = memo(({ value }) => {
+const ChildCom1: FC<{ value: number }> = memo(() => {
   console.log("ChildCom1 render");
   return null;
 });
 
-const ChildCom2: FC<{ value: number }> = memo(({ value }) => {
+const ChildCom2: FC<{ value: number }> = memo(() => {
   console.log("ChildCom2 render");
   return null;
 });
