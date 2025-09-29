@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import type { FC, PropsWithChildren } from 'react';
 
 import { Header } from '../_components/header';
+import Theme from '../_components/theme';
 import $styles from './layout.module.css';
 export const metadata: Metadata = {
     title: 'pincman的博客',
@@ -10,9 +11,11 @@ export const metadata: Metadata = {
 };
 
 const AppLayout: FC<PropsWithChildren> = ({ children }) => (
-    <div className={$styles.layout}>
-        <Header />
-        {children}
-    </div>
+    <Theme>
+        <div className={$styles.layout}>
+            <Header />
+            {children}
+        </div>
+    </Theme>
 );
 export default AppLayout;

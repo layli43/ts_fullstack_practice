@@ -1,8 +1,8 @@
 @reference "#tailwind.css";
 
 .block {
-    @apply tw:page-container tw:flex tw:flex-col tw:!flex-none tw:w-full tw:space-y-4 tw:p-5 tw:items-center tw:justify-center 
-       tw:rounded-sm tw:backdrop-blur-sm tw:shadow-nysm tw:shadow-neutral-800 tw:duration-300
-       tw:text-lg  tw:text-center  tw:text-white tw:bg-black/30 
-       tw:hover:shadow-nylg tw:font-lxgw;
+    @apply page-container flex flex-col !flex-none w-full space-y-4 p-5 items-center justify-center 
+       rounded-sm backdrop-blur-sm shadow-nysm shadow-neutral-800 duration-300
+       text-lg  text-center  text-white bg-black/30 
+       hover:shadow-nylg font-lxgw;
 }

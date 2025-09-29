@@ -1,6 +1,6 @@
 @layer theme, base,  antd, components, utilities;
 
-@import 'tailwindcss' prefix(tw);
+@import 'tailwindcss';
 @import 'tw-animate-css';
 @import './tailwind/base.css';
 @import './tailwind/utilities.css';

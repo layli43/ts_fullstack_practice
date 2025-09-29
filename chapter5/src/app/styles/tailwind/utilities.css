@@ -1,48 +1,48 @@
 /********************************************************* 自定义tailwind工具类 *********************************************************/
 @utility page-item {
-    @apply tw:flex tw:flex-auto tw:flex-col tw:mt-20 tw:items-center;
+    @apply flex flex-auto flex-col mt-20 items-center;
 }
 
 /* 页面包装容器 */
 @utility page-container {
-    @apply tw:max-w-[90%] tw:md:max-w-[80%] tw:lg:max-w-[70%] tw:xl:max-w-[60%] tw:flex-auto tw:mb-5;
+    @apply max-w-[90%] md:max-w-[80%] lg:max-w-[70%] xl:max-w-[60%] flex-auto mb-5;
 }
 
 /* 页面包装容器 */
 
 /* 空白页样式,一般用于404和error页面 */
 @utility page-blank {
-    @apply tw:bg-white/80  tw:backdrop-blur-sm tw:h-full tw:w-full tw:drop-shadow-lg tw:rounded-md tw:flex tw:justify-center tw:items-center;
+    @apply bg-white/80  backdrop-blur-sm h-full w-full drop-shadow-lg rounded-md flex justify-center items-center;
 
     html.dark & {
-        @apply tw:bg-black/50;
+        @apply bg-black/50;
     }
 }
 
 /* 全透明图标按钮 */
 @utility btn-icon-transparent {
-    @apply tw:block tw:w-auto! tw:border-none! tw:bg-transparent! tw:shadow-none! tw:ring-0! tw:hover:bg-transparent! tw:focus-visible:ring-0!;
+    @apply block w-auto! border-none! bg-transparent! shadow-none! ring-0! hover:bg-transparent! focus-visible:ring-0!;
 }
 
 @utility page-block {
-    @apply tw:bg-zinc-100/80;
+    @apply bg-zinc-100/80;
 
     html.dark & {
-        @apply tw:bg-zinc-800/50;
+        @apply bg-zinc-800/50;
     }
 }
 
 @utility page-block-hover {
-    @apply tw:hover:bg-white/90;
+    @apply hover:bg-white/90;
 
     html.dark & {
-        @apply tw:hover:bg-black/80;
+        @apply hover:bg-black/80;
     }
 }
 
 /* 只显示一行文字, 溢出部分以省略号代替 */
 @utility ellips {
-    @apply tw:inline-block tw:overflow-hidden tw:max-w-full tw:whitespace-nowrap tw:text-ellipsis tw:break-all;
+    @apply inline-block overflow-hidden max-w-full whitespace-nowrap text-ellipsis break-all;
 }
 
 /* 鼠标移动到文字或链接出现动画下划线 */
@@ -78,30 +78,30 @@
 /* 透明滚动条 */
 @utility transparent-scrollbar {
     &::-webkit-scrollbar {
-        @apply tw:w-1 tw:h-1;
+        @apply w-1 h-1;
     }
 
     &::-webkit-scrollbar-track {
-        @apply tw:bg-gray-100;
+        @apply bg-gray-100;
     }
 
     html.dark &::-webkit-scrollbar-track {
-        @apply tw:bg-zinc-800;
+        @apply bg-zinc-800;
     }
 
     &::-webkit-scrollbar-thumb {
-        @apply tw:bg-gray-300 tw:rounded;
+        @apply bg-gray-300 rounded;
     }
 
     html.dark &::-webkit-scrollbar-thumb {
-        @apply tw:bg-zinc-600;
+        @apply bg-zinc-600;
     }
 
     &::-webkit-scrollbar-corner {
-        @apply tw:bg-gray-100;
+        @apply bg-gray-100;
     }
 
     html.dark &::-webkit-scrollbar-corner {
-        @apply tw:bg-zinc-800;
+        @apply bg-zinc-800;
     }
 }

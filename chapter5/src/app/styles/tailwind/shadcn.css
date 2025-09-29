@@ -109,10 +109,10 @@
 
 @layer base {
     * {
-        @apply tw:border-border;
+        @apply border-border;
     }
 
     body {
-        @apply tw:bg-background tw:text-foreground;
+        @apply bg-black text-foreground;
     }
 }

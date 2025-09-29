@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const RootLayout: FC<PropsWithChildren> = ({ children }) => (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
         <body>{children}</body>
     </html>
 );

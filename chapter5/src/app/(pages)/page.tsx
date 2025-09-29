@@ -4,9 +4,10 @@ import Link from 'next/link';
 
 import { Button } from '../_components/shadcn/ui/button';
 import $styles from './page.module.css';
+// import './global.css';
 
 const App: FC = () => (
-    <main className="tw:page-item">
+    <main className="page-item">
         <div className={$styles.block}>
             欢迎来到3R教室，这是Nextjs课程的开始
             <Button asChild>
