@@ -1,0 +1,50 @@
+/********************************************************* 自定义tailwind基本样式 *********************************************************/
+
+@layer base {
+    html {
+        font-size: 100%;
+    }
+
+    /* 以下为自定义样式 */
+    html,
+    body {
+        @apply tw:font-base tw:h-[100vh] tw:w-full tw:p-0 tw:m-0;
+    }
+
+    body {
+        @apply tw:text-sm;
+    }
+
+    h1 {
+        @apply tw:text-3xl;
+    }
+
+    h2 {
+        @apply tw:text-2xl;
+    }
+
+    h3 {
+        @apply tw:text-xl;
+    }
+
+    h4 {
+        @apply tw:text-lg;
+    }
+
+    h5 {
+        @apply tw:text-sm;
+    }
+
+    h6 {
+        @apply tw:text-xs;
+    }
+
+    button,
+    [role='button'] {
+        cursor: pointer;
+    }
+
+    :disabled {
+        cursor: default;
+    }
+}
