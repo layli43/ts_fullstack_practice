@@ -1,4 +1,6 @@
 /* src/app/_components/header/styles.module.css */
+@reference "#tailwind.css";
+
 .header {
-  @apply tw-flex tw-justify-center tw-items-center tw-pt-6 tw-max-h-24 tw-flex-auto;
+    @apply flex items-center pt-6 max-h-24 flex-auto flex-col mb-3;
 }

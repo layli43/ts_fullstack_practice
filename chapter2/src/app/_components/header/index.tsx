@@ -8,4 +8,5 @@ export const Header: FC = () => (
     <header className={$styles.header}>
         <HeaderLogo />
     </header>
+    
 );

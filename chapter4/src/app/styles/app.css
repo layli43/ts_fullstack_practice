@@ -1,7 +1,3 @@
 .ant-app {
-  @apply tw-h-[100vh] tw-w-full tw-p-0 tw-m-0;
-}
-
-.lucide {
-  @apply tw-w-4 tw-h-4 tw-stroke-[1px];
+    @apply tw:h-[100vh] tw:w-full tw:p-0 tw:m-0;
 }

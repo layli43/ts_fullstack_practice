@@ -1,4 +1,3 @@
-/* src/app/demo/_components/style.module.css */
 .container {
   @apply tw-bg-neutral-100/40 tw-shadow-black/20 tw-backdrop-blur-sm tw-shadow-md tw-rounded-md tw-p-5 tw-m-5 tw-min-w-[20rem];
 }

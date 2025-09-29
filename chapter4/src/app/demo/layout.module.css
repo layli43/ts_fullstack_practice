@@ -4,5 +4,5 @@
 }
 
 html:global(.dark) .layout {
-  @apply tw-bg-[url(../styles/images/bg-dark.png)]
+  @apply tw-bg-[url(../styles/images/bg-dark.png)];
 }

@@ -34,6 +34,7 @@ export enum ThemeActionType {
   /**
    * 切换紧凑模式
    */
+
   CHANGE_COMPACT = "change_compact",
 }
 

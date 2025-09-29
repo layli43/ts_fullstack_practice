@@ -1,25 +1,13 @@
 import type { FC } from "react";
 
-// import { CallbackDemo } from "./_components/callback";
-import ContextDemo from "./_components/context";
-import ReducerDemo from "./_components/reducer";
-// import EffectDemo from "./_components/effect";
-// import ForwardRefDemo from "./_components/forwardRef";
-// import MemoDemo from "./_components/memo";
-// import RefDemo from "./_components/ref";
-// import StateDemo from "./_components/state";
+import ThemeDemo from "../_components/theme/demo";
+import $styles from "./page.module.css";
 
 const DemoPage: FC = () => (
-  <>
-    {/* <StateDemo />
-    <EffectDemo />
-    <RefDemo />
-    <ForwardRefDemo />
-    <MemoDemo />
-    <CallbackDemo /> */}
-    <ContextDemo />
-    <ReducerDemo />
-  </>
+  <div className={$styles.demo}>
+    {/* <ZustandDemo /> */}
+    <ThemeDemo />
+  </div>
 );
 
 export default DemoPage;
